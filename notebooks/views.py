@@ -5,7 +5,7 @@ from nbconvert import HTMLExporter
 # Create your views here.
 
 class TheBestView(generic.TemplateView):
-    template_name = "/home/ingagarsvaite/-ingagarsvaite-.github.io/notebooks/templates/notebook.html"
+    template_name = "/home/ingagarsvaite/-ingagarsvaite-.github.io/notebooks/templates/notebooks/notebook.html"
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
