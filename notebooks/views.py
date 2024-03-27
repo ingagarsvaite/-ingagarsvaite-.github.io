@@ -19,7 +19,7 @@ class TheBestView(generic.TemplateView):
 
         return context
 class MgView(generic.TemplateView):
-    template_name = "notebooks/notebook.html"
+    template_name = "notebooks/templates/notebook.html"
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
