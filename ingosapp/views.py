@@ -13,7 +13,7 @@ class FoodScienceView(generic.TemplateView):
 
 class DownloadCVView(View):
     def get(self, request, *args, **kwargs):
-        cv_file_path = os.path.join(settings.MEDIA_ROOT, 'cv', 'Garsvaite_cv_es.pdf')
+        cv_file_path = os.path.join(settings.MEDIA_ROOT, 'cv', 'inga_garsvaite_cv.pdf')
         response = FileResponse(open(cv_file_path, 'rb'))
         return response
 
