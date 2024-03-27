@@ -40,7 +40,7 @@ class FaView(generic.TemplateView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
 
-        notebook_filename = 'notebooks/jupyter/folic_acid.ipynb'
+        notebook_filename = '/home/ingagarsvaite/-ingagarsvaite-.github.io/notebooks/jupyter/folic_acid.ipynb'
         html_exporter = HTMLExporter()
         body, resources = html_exporter.from_file(open(notebook_filename, 'rb'))
 
@@ -55,7 +55,7 @@ class PView(generic.TemplateView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
 
-        notebook_filename = 'notebooks/jupyter/phosphor.ipynb'
+        notebook_filename = '/home/ingagarsvaite/-ingagarsvaite-.github.io/notebooks/jupyter/phosphor.ipynb'
         html_exporter = HTMLExporter()
         body, resources = html_exporter.from_file(open(notebook_filename, 'rb'))
 
@@ -70,7 +70,7 @@ class VitAView(generic.TemplateView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
 
-        notebook_filename = 'notebooks/jupyter/vitamin_a.ipynb'
+        notebook_filename = '/home/ingagarsvaite/-ingagarsvaite-.github.io/notebooks/jupyter/vitamin_a.ipynb'
         html_exporter = HTMLExporter()
         body, resources = html_exporter.from_file(open(notebook_filename, 'rb'))
 
@@ -85,7 +85,7 @@ class VitCView(generic.TemplateView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
 
-        notebook_filename = 'notebooks/jupyter/vitamin_c.ipynb'
+        notebook_filename = '/home/ingagarsvaite/-ingagarsvaite-.github.io/notebooks/jupyter/vitamin_c.ipynb'
         html_exporter = HTMLExporter()
         body, resources = html_exporter.from_file(open(notebook_filename, 'rb'))
 
@@ -100,7 +100,7 @@ class VitEView(generic.TemplateView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
 
-        notebook_filename = 'notebooks/jupyter/vitamin_e.ipynb'
+        notebook_filename = '/home/ingagarsvaite/-ingagarsvaite-.github.io/notebooks/jupyter/vitamin_e.ipynb'
         html_exporter = HTMLExporter()
         body, resources = html_exporter.from_file(open(notebook_filename, 'rb'))
 
@@ -115,7 +115,7 @@ class ZnView(generic.TemplateView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
 
-        notebook_filename = 'notebooks/jupyter/zinc.ipynb'
+        notebook_filename = '/home/ingagarsvaite/-ingagarsvaite-.github.io/notebooks/jupyter/zinc.ipynb'
         html_exporter = HTMLExporter()
         body, resources = html_exporter.from_file(open(notebook_filename, 'rb'))
 
@@ -129,7 +129,7 @@ class FiberView(generic.TemplateView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
 
-        notebook_filename = 'notebooks/jupyter/Foodscience.ipynb'
+        notebook_filename = '/home/ingagarsvaite/-ingagarsvaite-.github.io/notebooks/jupyter/Foodscience.ipynb'
         html_exporter = HTMLExporter()
         body, resources = html_exporter.from_file(open(notebook_filename, 'rb'))
 
