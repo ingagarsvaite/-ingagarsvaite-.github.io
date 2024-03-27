@@ -5,7 +5,7 @@ from nbconvert import HTMLExporter
 # Create your views here.
 
 class TheBestView(generic.TemplateView):
-    template_name = "/home/ingagarsvaite/-ingagarsvaite-.github.io/notebooks/templates/notebooks/notebook.html"
+    template_name = "notebooks/notebook.html"
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -19,7 +19,7 @@ class TheBestView(generic.TemplateView):
 
         return context
 class MgView(generic.TemplateView):
-    template_name = "notebooks/templates/notebook.html"
+    template_name = "notebooks/notebook.html"
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
